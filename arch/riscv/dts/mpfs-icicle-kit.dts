@@ -88,6 +88,10 @@
 	};
 };
 
+&cpu4 {
+	status = "disabled"; // in use by context b
+};
+
 &core_pwm0 {
 	status = "okay";
 };
